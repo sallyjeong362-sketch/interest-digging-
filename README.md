@@ -2,6 +2,10 @@
 
 하나의 주제를 레벨 5까지 파고드는 영어 학습 앱. `Deep Digger`(청소년/성인용)와 `Deep Digger Kids`(어린이용, 게임 포함) 두 버전이 들어있다.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/sallyjeong362-sketch/interest-digging-&env=ANTHROPIC_API_KEY&envDescription=Anthropic%20API%20key%20from%20console.anthropic.com&project-name=deep-digger&repository-name=deep-digger)
+
+버튼을 누르면 Vercel이 이 저장소를 그대로 가져가 배포 준비를 한다. Vercel 계정으로 로그인(무료, GitHub 계정으로 가능) → `ANTHROPIC_API_KEY` 값 입력 → Deploy 클릭이면 끝. 몇 분 뒤 나오는 `https://deep-digger-xxxx.vercel.app` 링크를 그대로 공유하면, 받는 사람은 Claude 로그인 없이 Deep Digger / Deep Digger Kids 전 기능을 바로 쓸 수 있다.
+
 - `/` — 버전 선택 화면
 - `/?app=main` — Deep Digger 바로 열기
 - `/?app=kids` — Deep Digger Kids 바로 열기
